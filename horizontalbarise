@@ -1,0 +1,5 @@
+$buffer = $host.ui.RawUI.BufferSize
+$buffer.Width = 120
+$host.ui.RawUI.BufferSize = $buffer
+Clear-Host
+Remove-Variable -Name buffer
